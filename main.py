@@ -32,8 +32,8 @@ def run_pipeline(seed_domain):
         print("Aborted. No emails sent.")
         return
 
-    # Stage 4 - Send emails
-    print("\n--- Stage 4: Sending emails ---")
+    # Stage 3 - Send emails
+    print("\n--- Stage 3: Sending emails ---")
     send_emails(contacts)
     print("\n Pipeline complete!")
 
